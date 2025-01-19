@@ -1,6 +1,6 @@
 
 import Link from "next/link";
-import Counter from "./counter";
+
 
 interface IMeteoWidget {
     city: string,
@@ -26,7 +26,7 @@ export default async function MeteoWidget({ city }: IMeteoWidget) {
 				src={`https://openweathermap.org/img/wn/${data.weather[0].icon}.png`}
 				alt={data.weather[0].main}
 			/>
-            <Counter />
+            
         </Link>
     )
 }

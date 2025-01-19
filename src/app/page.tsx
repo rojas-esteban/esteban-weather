@@ -1,13 +1,14 @@
+import Counter from "@/components/counter";
 import MeteoWidget from "@/components/MeteoWidget";
 import Title from "@/components/Title";
-import Image from "next/image";
 
 export default function Home() {
   return (
     <div className="p-4 bg-gradient-to-br from-blue-500 to-cyan-500 min-h-dvh" >
 
 
-      <Title level={1} >Meteo widgets</Title>
+      <Title level={1} >Meteo widgets <Counter /> </Title>
+      
 
 
       <div className="flex gap-4 justify-center flex-wrap">
