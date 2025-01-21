@@ -7,12 +7,15 @@ export default function Home() {
     <div className="p-4 bg-gradient-to-br from-blue-500 to-cyan-500 min-h-dvh" >
 
 
-      <Title level={1} >Meteo widgets <Counter /> </Title>
+
+      <Title level={2} >Meteo widgets <Counter /> </Title>
+      
+      
       
 
 
       <div className="flex gap-4 justify-center flex-wrap">
-        <MeteoWidget city="santiago" />
+        <MeteoWidget city="Santiago" />
         <MeteoWidget city="Sarlat-la-Canéda" />
         <MeteoWidget city="Chemillé-en-Anjou" />
         <MeteoWidget city="Saint-Girons" />
